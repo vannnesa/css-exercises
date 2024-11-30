@@ -20,6 +20,22 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .icon {
@@ -29,6 +45,7 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  min-width: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
